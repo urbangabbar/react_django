@@ -33,7 +33,7 @@ function Form(props) {
                 <button type="submit" className="btn btn-primary">Submit</button>
             </form>
             {error?.statusText && <div className="alert alert-danger mt-3" role="alert">
-                {error.statusText + " " + error.data?.email[0]}
+                {error.statusText}
             </div>}
         </>
     )
